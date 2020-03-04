@@ -1,0 +1,188 @@
+/*Шапка сайта*/
+
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #EFF1F2;
+    text-align: center;
+}
+div.SHRI{
+    display: flex;
+}
+
+@media (min-height: 722px) {
+    header {
+        height: 100vh;
+    }
+}
+@media (max-width: 725px) {
+   label.checkbox__lable, li{
+        width: 700;
+    }
+}
+@media (max-width: 700px) {
+    label.checkbox__lable, li{
+         width: 600px;
+     }
+ }
+ @media (max-width: 600px) {
+    label.checkbox__lable, li{
+         width: 500px;
+     }
+    }
+   
+.horse {
+    border-radius: 50%;
+    height: 340px;
+    width: 340px;
+    margin: 124px auto 36px;
+}
+h1 {
+    font-family:  Montserrat-ExtraBold;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    line-height: 44px;
+    margin: 0 auto 0;
+}
+.property {
+    opacity: 0.7;
+    font-family: PTMono-Regular;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    margin: 8px auto 20px;
+}
+.reach{
+    height: 52px;
+    width: 280px;
+    border-radius: 4px;
+    background-color: #0059D9;
+    border-style: none;
+    font-family: Montserrat-ExtraBold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 124px;
+}
+.reach:hover{
+    background-color: rgb(0, 0, 0);
+}
+.reach:active{
+    background-color: #0059D9;
+    opacity: 0.7;
+}
+
+
+
+.content{
+    width: 700px;
+    margin: 100px auto 115px;
+
+}
+.waits{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.z{
+    font-family: Montserrat-ExtraBold;
+    font-size: 32px;
+    color: #000000;
+    line-height: 36px;
+}
+.checkbox_input{
+    display: none;
+
+}
+label{
+    font-family: Montserrat-ExtraBold;
+    font-size: 18px;
+    color: #0059D9;
+    line-height: 24px;
+    display: inline-block;
+    width: 700px;
+}
+
+.freedom{
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    font-family: PTMono-Regular;
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    
+    
+}
+input:checked+label+div{
+    transition: 2s;
+    height: auto;
+    opacity: 0.7;
+}
+label:after{
+    content: "\2716";
+    float: right;
+    transform: rotate(45deg);
+    transition: 0.5s;
+    color: #0059D9;
+}
+input:checked+label:after{
+    transform: rotate(90deg);
+    color: #000000;
+    transition: 0.5s;
+}
+input:checked+label{
+    color: #000000;
+}
+li{
+    padding-top: 14px;
+    margin-bottom: 14px;
+    border-top: 1px solid #D2D9E2 ;
+}
+/*Portfolio*/
+.portfolio{
+    background-color: #25282A;
+    display: block;
+    
+    
+}
+.zxc{
+    font-family: Montserrat-ExtraBold;
+    font-size: 32px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 36px;
+    margin: 100px auto 0px;
+    width: 520px;
+    height: 36px;
+}
+.works{
+    opacity: 0.7;
+    font-family: PTMono-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    width: 520px;
+    height: 20px;
+    margin: 8px auto 0px;
+}
+
+@font-face{
+    font-family: "Montserrat-ExtraBold";
+    src: url(/font/Montserrat-ExtraBold.ttf);
+  }
+@font-face{
+      font-family: "PTMono-Regular";
+      src: url(/font/ofont.ru_PT\ Mono.ttf);
+  } 
+  @font-face {
+    
+    font-family: "krestik";
+    src: url(img/krestik.svg);
+  }
+
